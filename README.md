@@ -45,7 +45,11 @@ This repository contains a Bash script (`ec2_create.sh`) for creating and managi
 
   Modify script.sh to include the commands you want to run on each EC2 instance.
 
-6. **Set Permissions and Run the Script**
+6. **Edit ec2_create.sh**
+
+  Modify ec2_create.sh to mention the path and name of your ```PEM``` key.
+
+7. **Set Permissions and Run the Script**
 
   - Make ec2_create.sh executable:
     ```bash
